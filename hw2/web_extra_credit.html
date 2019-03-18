@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<style>
+/* Standard syntax */
+@keyframes myfirst {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:500px; top:0px;}
+  50%  {background-color:blue; left:500px; top:500px;}
+  75%  {background-color:green; left:0px; top:500px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+blink-div {
+  width: 500px;
+  height: 500px;
+  background-color: red;
+  position: relative;
+  -webkit-animation: myfirst 5s linear 2s infinite alternate; /* Safari 4.0 - 8.0 */
+  animation: myfirst 5s linear 2s infinite alternate;
+  {-moz-animation-duration: 4ms; -moz-animation-name: blink; -moz-animation-iteration-count: infi    nite; -mo    z-animation-direction: alternate; -webkit-animation-duration: 400ms; -webkit-animation-name: blink; -web    kit-a    nimation-iteration-count: infinite; -webkit-animation-direction: alternate; animation-duration: 400ms; anima    t    ion-name: blink; animation-iteration-count: infinite; animation-direction: alternate;}@-moz-keyframes blink{from        {opacity: 1;}to{opacity: 0;}}@-webkit-keyframes blink{from{opacity: 1;}to{opacity: 0;}}@keyframes blink{from{o    pac    ity: 1;}to{opacity: 0;}
+}
+blink{-moz-animation-duration: 4ms; -moz-animation-name: blink; -moz-animation-iteration-count: infi    nite; -moz-animation-direction: alternate; -webkit-animation-duration: 400ms; -webkit-animation-name: blink; -web    kit-animation-iteration-count: infinite; -webkit-animation-direction: alternate; animation-duration: 400ms; anima    tion-name: blink; animation-iteration-count: infinite; animation-direction: alternate;}@-moz-keyframes blink{from    {opacity: 1;}to{opacity: 0;}}@-webkit-keyframes blink{from{opacity: 1;}to{opacity: 0;}}@keyframes blink{from{opac    ity: 1;}to{opacity: 0;}}
+</style>
+<body>
+
+<h1> <blink> testing </blink></h1>
+<blink-div> <iframe width="420" height="345" src="https://www.youtube.com/embed/0zrahrhu8HA">
+</iframe></blink-div>
+</body>
+</html>
+

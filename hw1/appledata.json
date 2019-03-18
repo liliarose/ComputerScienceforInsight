@@ -1,0 +1,15 @@
+{
+  "resultCount": 1,
+  "results": [
+    {
+      "wrapperType": "artist",
+      "artistType": "Artist",
+      "artistName": "Maroon 5",
+      "artistLinkUrl": "https://itunes.apple.com/us/artist/maroon-5/1798556?uo=4",
+      "artistId": 1798556,
+      "amgArtistId": 529962,
+      "primaryGenreName": "Pop",
+      "primaryGenreId": 14
+    }
+  ]
+}

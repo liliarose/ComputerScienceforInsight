@@ -1,0 +1,26 @@
+{
+  "status": "OK",
+  "origin_addresses": [
+    "Claremont, CA, USA"
+  ],
+  "rows": [
+    {
+      "elements": [
+        {
+          "status": "OK",
+          "distance": {
+            "text": "1,871 km",
+            "value": 1870921
+          },
+          "duration": {
+            "text": "17 hours 48 mins",
+            "value": 64081
+          }
+        }
+      ]
+    }
+  ],
+  "destination_addresses": [
+    "Seattle, WA, USA"
+  ]
+}
