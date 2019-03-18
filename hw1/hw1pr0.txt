@@ -1,4 +1,0 @@
-
-I would argue that web scraping itself is neither ethical nor non-ethical. Rather, the ethical part depends what happens to the information after it has been scraped. Thus, the focus should be on what happens after someone has scraped the web. 
-However, I do agree there should certain pre-cautions to take whilescraping like making sure to not overload a website with requests. It would also be nice to possibly create a website with the possible pre-cautions or actions to note so that amateur scrapers would realize what they should be careful of; sometimes, we just start doing something and get excited about what we can do without realizing possible consequences (like overloading a website)
-
